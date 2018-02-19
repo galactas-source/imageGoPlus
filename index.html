@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>ImageGoPlus</title>
+  <style>
+    .player,.action{
+         text-align: center;
+    }
+
+    #imagegoplus{
+        background-repeat: no-repeat;
+        height: 375px;
+        width: 375px;
+        margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class='player'>
+<div id="imagegoplus" frames=10 rows=10 end=99 interval="100" jumpx="375" jumpy="375" startx="0" starty="0" img-src="./images/ssTest1.png" ></div>
+</div>
+
+<div class='action'>
+  <button id="play" action="start" >Play</button><button id="restart">Restart</button>
+</div>
+
+
+
+<script type='text/javascript' src='js/imagegoplus.js'>
+
+</script>
+</body>
+</html>

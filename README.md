@@ -1,5 +1,5 @@
 # imageGoPlus
-A simple javascript player which can turn your image frames (preferably in grid layout)  into playable sequence for your browser.
+A simple javascript library which can turn your image frames (preferably in grid layout)  into playable sequence for your browser.
 
 # Demo
 https://ryvan-js.github.io/imageGoPlus/ - actually its pretty easy for you to try it out by yourself.

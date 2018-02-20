@@ -9,11 +9,21 @@ Works With Any Modern Broser
 
 #### Initialization
 
-Add this into the <body> tag, try not to change the structure unless you know what you are doing but feel free to style it.
+This part initializing the imagegoplus library.
+
+```html
+<div id="imagegoplus" frames=10 rows=10 end=99 interval="100" jumpx="375" jumpy="375" startx="0" starty="0" img-src="./images/ssTest1.png" ></div>
+
+
+<script type='text/javascript' src='js/imagegoplus.js'>
+```
+but this wouldn't be enuogh since we don't have any players to control the actions.
+
+Creating player.Add this into the \<body> tag,here i am wrapping the imagegoplus elements inside the my player,try not to change the structure unless you know what you are doing but feel free to style it.
   
 ```html
 <div class='player'>
-<div id="imagegoplus" frames=10 rows=10 end=99 interval="100" jumpx="375" jumpy="375" startx="0" starty="0" img-src="./images/ssTest1.png" ></div>
+  <div id="imagegoplus" frames=10 rows=10 end=99 interval="100" jumpx="375" jumpy="375" startx="0" starty="0" img-src="./images/ssTest1.png" ></div>
 </div>
 
 <div class='action'>

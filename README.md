@@ -27,7 +27,7 @@ Add player div wrapper into the \<body> tag,try not to change the structure unle
 <script type='text/javascript' src='js/imagegoplus.js'>
 ```
 
-Add this into the <script> tag just before the <\/body>,this part actually controls how the player should work.As you can see the player and the imageplusgo.js library both two different setups.
+Add this into the <script> tag just before the <\/body>,this part initializes the player.
 
 ```javascript
 

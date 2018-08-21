@@ -1,5 +1,5 @@
 # imageGoPlus
-A simple javascript library which can turn your image frames (preferably in grid layout)  into playable sequence for your browser.
+A simple javascript library which can turn your 2d sprite sheet into live animation.
 
 # Demo
 https://ryvan-js.github.io/imageGoPlus/ - actually its pretty easy for you to try it out by yourself.
@@ -17,7 +17,7 @@ This part initializing the imagegoplus library.
 
 <script type='text/javascript' src='js/imagegoplus.js'>
 ```
-but this wouldn't be enuogh since we don't have any players to control the actions.
+but this wouldn't be enough since we don't have any players to control the actions.
 
 Creating player.Add this into the \<body> tag,here i am wrapping the imagegoplus elements inside the my player,try not to change the structure unless you know what you are doing but feel free to style it.
   
